@@ -46,7 +46,7 @@ switch (liriCommand) {
 // Function for Twitter
 function getTweets(input) {
     var client = new twitter(keys.twitter);
-    var twitterUserName = input;
+    var twitterUserName = "Jay__Eye";
 
     //Callback for twitter to search 20 latest tweets for a specific twitter user
     var params = {screen_name: twitterUserName, count: 20};
